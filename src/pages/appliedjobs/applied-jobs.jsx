@@ -1,7 +1,7 @@
-import Preference from "../../component/preference/preference";
+import Preference from "../../component/Preference/preference.jsx";
 import JobsHeader from "../../component/Views/Jobs_Header";
 import Footer from "../../component/Views/Footer";
-import AppliedTable from "../../component/tables/appliedTable";
+import AppliedTable from "../../component/Tables/appliedTable";
 
 const AppliedJobs = () => {
   const role = sessionStorage.getItem("role");

@@ -1,7 +1,7 @@
-import ActiveTable from "../../component/tables/activeTable";
+import ActiveTable from "../../component/Tables/activeTable";
 import JobsHeader from "../../component/Views/Jobs_Header";
 import Footer from "../../component/Views/Footer";
-import SeekerAppliedTable from "../../component/tables/seeker_appliedTable";
+import SeekerAppliedTable from "../../component/Tables/seeker_appliedTable";
 
 const JobsPortal = () => {
   const role = sessionStorage.getItem("role");

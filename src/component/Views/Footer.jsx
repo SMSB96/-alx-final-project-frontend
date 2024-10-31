@@ -1,5 +1,7 @@
 import React from "react";
 
+import A from "../Images/logo.png";
+
 const Footer = () => {
   return (
     <div>
@@ -9,10 +11,10 @@ const Footer = () => {
           <div className="row">
             <div className="col-lg-3 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
               <a href="#/">
-                <img src="images/logo-light.png" height={20} alt="Logo" />
+                <img src={A} height={40} alt="Logo" />
               </a>
               <p className="mt-4">
-                FefHub! Where Careers Begin!
+                ST Worky! Where Careers Begin!
                 Sign up today!
               </p>
               <ul className="social-icon social list-inline mb-0">
@@ -109,7 +111,7 @@ const Footer = () => {
             <div className="col-12">
               <div className>
                 <p className="mb-0">
-                  © 2019 -{new Date().getUTCFullYear()} FefHub.
+                  © 2024 -{new Date().getUTCFullYear()} ST Worky.
                   <i className="mdi mdi-heart text-danger" />
                 </p>
               </div>

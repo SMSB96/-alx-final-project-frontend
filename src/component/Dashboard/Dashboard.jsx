@@ -1,6 +1,6 @@
 import Footer from "../Views/Footer";
 import Header from "../Views/Header";
-import Suscribe from "../Suscribe/Suscribe";
+import Suscribe from "../Subscribe/Suscribe";
 import Popular from "../Popular/Popular";
 import WalkThrough from "../WalkThrough/WalkThrough";
 import AllJobs from "../Jobs/AllJobs";

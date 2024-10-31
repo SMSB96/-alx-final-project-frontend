@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-import A from "../images/logo-light.png";
-import B from "../images/logo-dark.png";
+import A from "../Images/logo.png";
 import axios from "axios";
 
 const Header = () => {
@@ -58,13 +57,13 @@ const Header = () => {
           <div className="container">
             <div className="float-left">
               <div className="phone">
-                <a href="tel:+233 501592984" style={{ color: "#fff" }}>
-                  <i className="mdi mdi-phone-classic" /> +233 501000000
+                <a href="#" style={{ color: "#fff" }}>
+                  <i className="mdi mdi-phone-classic" /> +212 500000000
                 </a>
               </div>
               <div className="email">
-                <a href="mailto:customerservices@fefhub.com">
-                  <i className="mdi mdi-email" /> customerservices@fefhub.com
+                <a href="mailto:customerservices@stworky.com">
+                  <i className="mdi mdi-email" /> customerservices@stworky.com
                 </a>
               </div>
             </div>
@@ -154,8 +153,8 @@ const Header = () => {
           {/* Logo container*/}
           <div>
             <a href="/" className="logo">
-              <img src={A} alt=".." className="logo-light" height={18} />
-              <img src={B} alt=".." className="logo-dark" height={18} />
+              <img src={A} alt=".." className="logo-light" height={50} />
+              <img src={A} alt=".." className="logo-dark" height={50} />
             </a>
           </div>
           {role && role === "seeker" ? (
